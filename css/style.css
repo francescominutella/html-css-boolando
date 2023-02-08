@@ -25,6 +25,7 @@
     display: none;
 }
 
+
 /* ------------------------------------- */
 /* HEADER */
 #app_header {
@@ -59,7 +60,8 @@
     font-size: 1.5rem;
 }
 
-/* MAIN */
+/*--------------- MAIN--------------------- */
+
 .row .d-flex {
     display: flex;
 }
@@ -68,11 +70,12 @@
     flex-wrap: wrap;
 }
 
-.card>#img_left {
+.card > #img_left {
     padding-left: 0;
 }
 
 .col4 {
+    padding-left: 2rem;
     padding-top: 3rem;
     width: calc((100% / 12) * 4);
 }
