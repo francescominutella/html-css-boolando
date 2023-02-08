@@ -129,3 +129,13 @@
     background-color: black;
     padding-top: 3rem;
 }
+.brand > ul{
+    list-style: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 1rem;
+    background-color: white;
+    padding: 0.5rem;
+    justify-content:end;
+}
