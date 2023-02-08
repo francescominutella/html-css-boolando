@@ -65,3 +65,9 @@
 .card:hover .detail {
     display: block;
 }
+
+/* FOOTER */
+#app_footer{
+    background-color: black;
+    padding-top: 3rem;
+}
