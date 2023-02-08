@@ -105,7 +105,7 @@
 .badge_r{
     position: absolute;
     left: 0;
-    bottom: 1rem;
+    bottom: 70px;
     text-align: center;
     font-size: 1rem;
     color: white;
@@ -116,7 +116,7 @@
 .badge_g{
     position: absolute;
     left: 65px;
-    bottom: 1rem;
+    bottom: 70px;
     text-align: center;
     font-size: 1rem;
     color: white;
@@ -131,11 +131,6 @@
 }
 .brand > ul{
     list-style: none;
-    position: absolute;
-    left: 0;
-    bottom: 0;
     font-size: 1rem;
     background-color: white;
-    padding: 0.5rem;
-    justify-content:end;
 }
