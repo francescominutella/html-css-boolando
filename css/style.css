@@ -78,6 +78,33 @@
     justify-content:end;
 }
 
+/* .col4 > .badge_r .badge_g{
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    text-align: center;
+    font-size: 20px;
+    background-color: red;
+    width: 60px;
+    height: 30px;
+    justify-content:end;
+} */
+
+/* .badge_r .badge_g{
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    text-align: center;
+    font-size: 20px;
+    background-color: red;
+    width: 60px;
+    height: 30px;
+    justify-content:end;
+} */
+
+
+
+
 .badge_r{
     position: absolute;
     left: 0;
@@ -89,7 +116,18 @@
     height: 30px;
     justify-content:end;
 }
-
+.badge_g{
+    position: absolute;
+    left: 65px;
+    bottom: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    background-color: green;
+    width: 60px;
+    height: 1rem;
+    justify-content:end;
+}
 /* FOOTER */
 #app_footer{
     background-color: black;
