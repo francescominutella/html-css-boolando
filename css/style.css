@@ -20,6 +20,27 @@
 .card{
     position: relative;
 }
+.detail {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: red;
+  }
+
+
+
+
+
+
+
+
+
 /* ------------------------------------- */
 /* HEASER */
 #app_header{
@@ -46,4 +67,7 @@
     padding-top: 3rem;
     padding-left: 2rem;
     width: calc((100% / 12) * 4);
+}
+.card:hover .detail{
+    display: block;
 }
