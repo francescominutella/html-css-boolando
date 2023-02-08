@@ -37,6 +37,9 @@
 .row .d-flex{
     display: flex;
 }
+.row{
+    flex-wrap: wrap;
+}
 
 .col4{
     padding-top: 3rem;
