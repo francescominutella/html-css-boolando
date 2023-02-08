@@ -17,6 +17,9 @@
 .d-flex{
     display: flex;
 }
+.card{
+    position: relative;
+}
 /* ------------------------------------- */
 /* HEASER */
 #app_header{
@@ -34,6 +37,7 @@
 .row .d-flex{
     display: flex;
 }
+
 .col4{
     padding-top: 3rem;
     padding-left: 2rem;
