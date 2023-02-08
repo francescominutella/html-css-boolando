@@ -37,6 +37,7 @@
 .row .d-flex{
     display: flex;
 }
+
 .row{
     flex-wrap: wrap;
 }
