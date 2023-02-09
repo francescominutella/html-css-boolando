@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 .container{
     width: 80%;
@@ -106,7 +109,7 @@
 .badge_r {
     position: absolute;
     left: 0;
-    bottom: 70px;
+    bottom: 90px;
     text-align: center;
     font-size: 1rem;
     color: white;
@@ -118,7 +121,18 @@
 .badge_g {
     position: absolute;
     left: 65px;
-    bottom: 70px;
+    bottom: 90px;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    background-color: green;
+    padding: 0.5rem;
+    justify-content: end;
+}
+.badge_g_sost {
+    position: absolute;
+    left: 0;
+    bottom: 90px;
     text-align: center;
     font-size: 1rem;
     color: white;
